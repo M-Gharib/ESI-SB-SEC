@@ -7,7 +7,7 @@ import javax.persistence.*;
 public class User {
 
     @Id
-    //@GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(name = "user_id")
     private int id;
     @Column(name = "name")
@@ -21,8 +21,8 @@ public class User {
     public User() {
     }
 
-public User(int i, String string, String string2, String string3) {
-    }
+/* public User(int i, String string, String string2, String string3) {
+    } */
 
 
 
