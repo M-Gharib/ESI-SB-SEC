@@ -31,6 +31,15 @@ public class SecController {
 
         return roles;
     }
+
+    @GetMapping("/")
+    public String publicAPI(){
+    return "Hi, this is a public API";
+    }
+
+
+
+
 }
 
     
