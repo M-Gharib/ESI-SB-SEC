@@ -11,7 +11,7 @@ public class MyUserDetails extends User implements UserDetails  {
 
     private User user;
 
-    public MyUserDetails(final User user) {
+    public MyUserDetails(User user) {
         this.user = user;
     }
 
