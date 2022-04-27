@@ -38,6 +38,20 @@ public class SecController {
     }
 
 
+    @GetMapping("/auth")
+    public String authenticatedAPI(){
+        return "Hi, you are authenticated";
+    }
+
+    @GetMapping("/user")
+    public String userAPI(){
+        return "Hi, you are a user/admin";
+    } 
+ 
+    @GetMapping("/admin")
+    public String adminAPI(){
+        return "Hi, you are an admin";
+    } 
 
 
 }
